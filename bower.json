@@ -1,0 +1,21 @@
+{
+  "name": "key-value-tables-directive",
+  "description": "An angular directive to generate mutiple key value tables with https://github.com/belgac/key-value-table-directive",
+  "main": "dist/key-value-tables-directive.min.js",
+  "authors": [
+    "Hans Scheuren <hans.scheuren@bizliner.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/belgac/key-value-tables-directive",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "key-value-table-directive": "~1.0.1"
+  }
+}
