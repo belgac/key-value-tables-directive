@@ -1,1 +1,1 @@
-<keyvaluetable ng-repeat="table in keyValueTables.tables" title="table.title" datatoparse="keyValueTables.datatoparse" model="table.model"  direction="table.direction"></keyvaluetable>
+<keyvaluetable ng-repeat="table in keyValueTables.tables | orderBy:'order'" title="table.title" datatoparse="keyValueTables.datatoparse" model="table.model"  direction="table.direction"></keyvaluetable>
